@@ -1,0 +1,4 @@
+---
+hero:
+  title: RULEX FRAMEWORK
+---
