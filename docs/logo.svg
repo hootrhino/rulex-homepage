@@ -1,0 +1,20 @@
+<svg width="1605" height="809" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="811" width="1607" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_8">
+   <path id="svg_4" data-spm-anchor-id="a313x.7781069.0.i15" p-id="7519" fill="#aa56ff" d="m790.366162,383.441382l10.201965,0l0,22.444557l-10.201965,0l0,-22.444557z"/>
+   <path id="svg_5" data-spm-anchor-id="a313x.7781069.0.i16" p-id="7520" fill="#56aaff" d="m776.045464,383.441382l10.201965,0l0,46.929471l-10.201965,0l0,-46.929471z"/>
+   <path id="svg_6" data-spm-anchor-id="a313x.7781069.0.i17" p-id="7521" fill="#aa56ff" d="m818.75255,396.71585l10.20196,0l0,30.60635l-10.20196,0l0,-30.60635z"/>
+   <path id="svg_7" data-spm-anchor-id="a313x.7781069.0.i18" p-id="7522" fill="#56aaff" d="m804.585268,378.62917l10.201875,0l0,16.323485l-10.201875,0l0,-16.323485z"/>
+  </g>
+ </g>
+</svg>
