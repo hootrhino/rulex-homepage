@@ -1,5 +1,5 @@
 import { Footer } from 'dumi-theme-antd-style';
-
+import React from 'react';
 export default () => {
-  return <Footer bottom={'RULEX是一个轻量级边缘网关开发框架'} />;
+  return <Footer columns={[]} bottom={'RULEX是一个轻量级边缘网关开发框架'} />;
 };
