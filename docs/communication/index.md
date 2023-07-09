@@ -2,6 +2,8 @@
 nav:
   title: 社区
   order: 8
+sidebar: false
+
 ---
 
 # RULEX 社区
