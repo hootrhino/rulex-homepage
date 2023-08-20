@@ -1,7 +1,7 @@
 ---
 nav:
   title: 社区
-  order: 4
+  order: 1
 ---
 
 # HootRhino 社区
