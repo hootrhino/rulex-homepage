@@ -4,8 +4,8 @@ nav:
   order: 1
   path: /luaguide
 group:
-  title: 时间操作
-  order: 0
+  title: 继电器操作
+  order: 3
 ---
 
-# 时间操作
+# 继电器操作

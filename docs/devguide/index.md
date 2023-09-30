@@ -1,7 +1,7 @@
 ---
 nav:
-  title: 开发指南
-  order: 2
+  title: 二次开发
+  order: 1
 ---
 
 # RULEX 开发指南

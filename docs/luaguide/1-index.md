@@ -1,6 +1,6 @@
 ---
 nav:
-  title: 文档简介
+  title: LUA指南
   order: 1
 group:
   title: 文档简介

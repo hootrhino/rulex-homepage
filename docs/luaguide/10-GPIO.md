@@ -4,8 +4,8 @@ nav:
   order: 1
   path: /luaguide
 group:
-  title: 时间操作
-  order: 0
+  title: GPIO操作
+  order: 2
 ---
 
-# 时间操作
+# GPIO 操作
