@@ -1,6 +1,6 @@
 ---
 nav:
-  title: LUA指南
+  title: Rule指南
   order: 11
 group:
   title: 浮点数处理

@@ -1,8 +1,8 @@
 ---
 nav:
-  title: LUA指南
+  title: Rule指南
   order: 8
-  path: /luaguide
+
 group:
   title: 设备控制交互
   order: 8

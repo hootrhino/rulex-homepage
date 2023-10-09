@@ -5,7 +5,7 @@ import { featuresZh } from './config/features';
 
 const themeConfig: SiteThemeConfig = {
   name: 'RULEX',
-  logo: 'logo.svg',
+  // logo: 'logo.svg',
   hero: {
     description: '轻量级边缘网关框架',
     actions: [

@@ -1,8 +1,8 @@
 ---
 nav:
-  title: LUA指南
+  title: Rule指南
   order: 12
-  path: /luaguide
+
 group:
   title: 数据格式
   order: 12
