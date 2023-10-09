@@ -5,6 +5,7 @@ nav:
 group:
   title: 关于RULEX
   order: 10
+sidebar: false
 ---
 
 # RULEX 边缘网关开发框架
