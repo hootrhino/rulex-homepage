@@ -21,8 +21,9 @@ import React from 'react';
 import { Button, Space } from 'antd';
 export default () => (
   <Space>
+    更多最新特性可以关注RULEX：
     <Button type="primary" href="https://github.com/hootrhino/rulex">
-      更多最新特性可以关注RULEX：点击我去RULEX主页
+      RULEX主页
     </Button>
   </Space>
 );
@@ -30,10 +31,21 @@ export default () => (
 
 ## 提前准备
 
+```lua
+print("Hello, Rulex!")
+```
+
 RULEX LUA 其实就是标准 Lua5.3，没有任何修改，所以为了尽快掌握 RULEX LUA 扩展，建议大家先提前学习标准 Lua 的语法，下面给出几个常用的学习网站。
 
 - Lua 官网：https://www.lua.org/pil/1.html
 - 菜鸟 Lua：https://www.runoob.com/lua/lua-tutorial.html
+
+RULEX 有专门的命名空间,参考下面的表格
+
+| 命名空间 | 功能           | 示例                               |
+| -------- | -------------- | ---------------------------------- |
+| applib   | 轻量级应用专用 | applib:Read('uuid', "name", "arg") |
+| rulelib  | 规则脚本专用   | rulelib:self()                     |
 
 ## 库函数表
 
@@ -51,7 +63,7 @@ RULEX LUA 其实就是标准 Lua5.3，没有任何修改，所以为了尽快掌
 
 - 二进制处理
 - 十六进制处理
-- 位操作处理
+- 位处理处理
 
 ## 数字处理
 
@@ -88,9 +100,9 @@ RULEX LUA 其实就是标准 Lua5.3，没有任何修改，所以为了尽快掌
 
 ## 硬件库
 
-- GPIO 操作
+- GPIO 处理
 - 播放音频
-- 继电器操作
+- 继电器处理
 
 ```jsx
 /**

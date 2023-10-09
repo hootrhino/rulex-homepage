@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 6
   path: /luaguide
 group:
-  title: 音频操作
-  order: 1
+  title: 数据转发与桥接
+  order: 6
 ---
 
-# 音频操作
+# 持久化 Tdengine

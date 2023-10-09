@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 10
   path: /luaguide
 group:
-  title: 继电器操作
-  order: 3
+  title: 本地硬件接口
+  order: 10
 ---
 
-# 继电器操作
+# 继电器处理

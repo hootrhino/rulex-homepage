@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 8
   path: /luaguide
 group:
-  title: 音频操作
-  order: 1
+  title: 设备控制交互
+  order: 8
 ---
 
-# 音频操作
+# 向设备写入数据

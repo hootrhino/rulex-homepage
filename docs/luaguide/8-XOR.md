@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 8
   path: /luaguide
 group:
-  title: 音频操作
-  order: 1
+  title: 安全校验
+  order: 8
 ---
 
-# 音频操作
+# XOR 校验

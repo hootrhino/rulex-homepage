@@ -36,17 +36,15 @@ group:
 
 ## 贡献者
 
-### RULEX
-
+<br>
 <a href="https://github.com/hootrhino/rulex/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=hootrhino/rulex" />
 </a>
-
-### RULEX Other
-
+<br>
 <a href="https://github.com/hootrhino/rulex-dashboard/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=hootrhino/rulex-dashboard-vue-old" />
 </a>
+<br>
 
 ## Star
 

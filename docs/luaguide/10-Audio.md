@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 10
   path: /luaguide
 group:
-  title: 音频操作
-  order: 1
+  title: 本地硬件接口
+  order: 10
 ---
 
-# 音频操作
+# 本地音频播放

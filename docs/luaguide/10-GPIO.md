@@ -1,11 +1,11 @@
 ---
 nav:
   title: LUA指南
-  order: 1
+  order: 10
   path: /luaguide
 group:
-  title: GPIO操作
-  order: 2
+  title: 本地硬件接口
+  order: 10
 ---
 
 # GPIO 操作
