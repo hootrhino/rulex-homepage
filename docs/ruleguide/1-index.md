@@ -48,12 +48,27 @@ RULEX LUA 其实就是标准 Lua5.3，没有对 LUA 做任何修改，所以为�
 
 ## 命名空间
 
-RULEX 有专门的命名空间,参考下面的表格
+RULEX RULE 有专门的命名空间,参考下面的表格
 
-| 命名空间 | 功能           | 示例                               |
-| -------- | -------------- | ---------------------------------- |
-| applib   | 轻量级应用专用 | applib:Read('uuid', "name", "arg") |
-| rulelib  | 规则脚本专用   | rulelib:self()                     |
+| 命名空间 | 功能                         | 示例                                |
+| -------- | ---------------------------- | ----------------------------------- |
+| data     | 数据处理                     | data:ToUdp('uuid', data)            |
+| stdlib   | 标准库                       | stdlib:Debug("ok")                  |
+| rpc      | RPC 调用                     | rpc:Request('uuid', data)           |
+| binary   | 二进制处理                   | binary:ToUint(bin_data)             |
+| url      | URL 处理                     | url:Parse("https://www.google.com") |
+| time     | 时间处理                     | time:Sleep(1000)                    |
+| kv       | 内部 KV 存储器               | kv:VSet("k","v")                    |
+| json     | JSON 编解码                  | json:T2J({name = "name"})           |
+| rule     | 规则辅助                     | rule:SelfId()                       |
+| device   | 设备交互                     | device:Read(data)                   |
+| string   | 字符串处理                   | string:SubStr("12345",0,1)          |
+| hex      | 十六进制处理                 | hex:ABCD(data)                      |
+| eekith3  | 针对 EEKIT-H3 版本的特殊支持 | eekith3:info()                      |
+| raspi4b  | 针对树莓派 4B 版本的特殊支持 | raspi4b:info()                      |
+| aibase   | AI 接口                      | aibase:Infer(data)                  |
+| math     | 数学库                       | math:pow(1,1)                       |
+| visual   | 可视化大屏交互               | visual:To('uuid',data)              |
 
 ## RULEX Lua 结构
 
