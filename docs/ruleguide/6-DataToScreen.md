@@ -14,7 +14,7 @@ group:
 Actions = {
     function(data)
         local LuaTable = { name = "rulex", data = "ok"}
-        rulexlib:DataToUi("uuid", rulexlib:T2J(LuaTable))
+        data:ToUi("uuid", rulexlib:T2J(LuaTable))
         return true, data
     end
 }

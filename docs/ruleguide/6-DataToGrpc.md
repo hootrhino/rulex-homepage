@@ -26,10 +26,7 @@ package rulexrpc;
 // 自定义编解码器, 使用GRPC协议通信
 //
 service Codec {
-  // 编码
   rpc Decode (CodecRequest) returns (CodecResponse) {}
-  // 解码
-  rpc Encode (CodecRequest) returns (CodecResponse) {}
 }
 
 message CodecRequest {
@@ -50,24 +47,26 @@ message CodecResponse {
 
 新建一个 GRPC 编解码目标以后即可调用。
 
-### 编码
-
 ```lua
 Actions = {
 function(data)
-    print(rulexlib:RPCENC('uuid', data))
+    print(rpc:Request('uuid', data))
     return true, data
 end
 }
 ```
 
-### 解码
+下面给出一个 golang 实现的 Rpc Server 示例
 
-```lua
-Actions = {
-function(data)
-    print(rulexlib:RPCDEC('uuid', data))
-    return true, data
-end
+```go
+type _rpcCodecServer struct {
+	rulexrpc.UnimplementedCodecServer
+}
+
+func (_rpcCodecServer) Decode(c context.Context, req *rulexrpc.CodecRequest) (resp *rulexrpc.CodecResponse, err error) {
+	glogger.GLogger.Debug("[REQUEST]=====================> ", req.String())
+	resp = new(rulexrpc.CodecResponse)
+	resp.Data = []byte("DecodeOK")
+	return resp, nil
 }
 ```

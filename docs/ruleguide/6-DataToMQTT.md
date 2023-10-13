@@ -14,7 +14,7 @@ group:
 Actions = {
     function(data)
         local LuaTable = { name = "rulex", data = "ok"}
-        rulexlib:DataToMqtt("uuid", rulexlib:T2J(LuaTable))
+        data:ToMqtt("uuid", rulexlib:T2J(LuaTable))
         return true, data
     end
 }
