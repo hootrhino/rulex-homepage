@@ -10,16 +10,28 @@ group:
 
 # 持久化 MongoDB
 
+## 文档简介
+
+本文主要解释将数据写入 MongoDB 的方法。
+
+## 函数定义
+
+```lua
+data:ToMongo(uuid::string, json::string) -> string
+```
+
+## 操作示例
+
 首先新建好 Mongodb 的资源
 ![1697164537240](./image/6-DataToMongodb/1697164537240.png)
 然后编写脚本：
 
 ```lua
 Actions = {
-    function(args)
+    function(data)
         local LuaTable = { name = "rulex", data = "ok"}
         data:ToMongo("uuid", rulexlib:T2J(LuaTable))
-        return true, args
+        return true, data
     end
 }
 ```

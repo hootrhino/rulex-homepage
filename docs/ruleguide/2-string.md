@@ -10,7 +10,11 @@ group:
 
 # 字符串处理
 
-## 拼接
+## 文档简介
+
+本文主要解释字符串处理相关操作函数。
+
+### 字符串拼接
 
 Lua 使用 `..` 来拼接字符串
 
@@ -24,10 +28,24 @@ Lua 还可以使用 `..` 来拼接字符串和数字
 print("hello" .. 3)
 ```
 
-## 截取
+### 字符截取
 
 Lua 使用 `string:SubStr(s, start, len)` 来截取字符串
+
+#### 函数定义
+
+```
+string:SubStr(s, start, len) ->string
+```
+
+#### 示例
 
 ```lua
 print(string:SubStr("hello",0,2))
 ```
+
+## 注意事项
+
+:::warning
+注意：不支持 lua 的原生 string 函数，建议使用 RULEX LUA 支持。
+:::

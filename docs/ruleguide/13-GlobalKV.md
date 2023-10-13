@@ -9,3 +9,13 @@ group:
 ---
 
 # 全局缓存器
+
+```lua
+Actions = {
+    function(args)
+        kv:VSet("key", rulexlib:T2J({ name = "rulex", data = "ok"}))
+        print(kv:VGet("key"))
+        return true, args
+    end
+}
+```

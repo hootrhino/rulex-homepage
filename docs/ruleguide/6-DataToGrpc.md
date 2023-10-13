@@ -10,6 +10,16 @@ group:
 
 # GRPC 编解码
 
+## 文档简介
+
+RULEX 支持 RPC 调用处理，本文主要讲解使用 RPC 处理编解码。
+
+## 函数定义
+
+```haskell
+rpc:Request('uuid'::string, data::string) -> string
+```
+
 ## Grpc 规范
 
 如果你有私有协议需要独立部署，可以使用 GRPC 来和 RULEX 交互。此处有一个私有协议 GRPC server Proto 模板：
@@ -43,7 +53,7 @@ message CodecResponse {
 
 协议文件非常简单，可以用你熟悉的任何语言去实现这个 [proto](https://github.com/hootrhino/rulex/blob/dev/v0.6.4/component/rulexrpc/xcodec.proto) 文件。关于如何使用 grpc 编译 proto 文件此处不做赘述。
 
-## Lua 交互
+## 交互示例
 
 新建一个 GRPC 编解码目标以后即可调用。
 
@@ -55,6 +65,8 @@ function(data)
 end
 }
 ```
+
+## Grpc Server 示例
 
 下面给出一个 golang 实现的 Rpc Server 示例
 

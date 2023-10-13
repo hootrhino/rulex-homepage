@@ -14,10 +14,8 @@ Lua Table 和 JSON 的互相转换使用`json:T2J`和`json:J2T`两个函数。
 
 ## 函数定义
 
-| 命名空间 | 函数名 | 参数   | 返回值 |
-| -------- | ------ | ------ | ------ |
-| json     | T2J    | table  | string |
-| json     | J2T    | string | table  |
+- json:T2J(table) -> string
+- json:T2J(string) -> table
 
 ## 示例
 
